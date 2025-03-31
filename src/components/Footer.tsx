@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Linkedin, GitHub, Mail } from 'lucide-react';
+import { Linkedin, Github, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,7 +16,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a href="#" className="hover:text-gold transition-colors">
-              <GitHub size={24} />
+              <Github size={24} />
             </a>
             <a href="#" className="hover:text-gold transition-colors">
               <Mail size={24} />
