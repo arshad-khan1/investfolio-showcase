@@ -8,7 +8,7 @@ const BlogSection = () => {
     {
       id: 1,
       title: 'Understanding Modern Portfolio Theory',
-      excerpt: 'An exploration of diversification strategies and risk management techniques in today's market landscape.',
+      excerpt: "An exploration of diversification strategies and risk management techniques in today's market landscape.",
       date: 'June 15, 2023',
       image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       category: 'Investment Strategy'
