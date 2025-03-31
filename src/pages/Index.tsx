@@ -7,6 +7,8 @@ import ExperienceSection from '../components/ExperienceSection';
 import PortfolioSection from '../components/PortfolioSection';
 import AchievementsSection from '../components/AchievementsSection';
 import SkillsSection from '../components/SkillsSection';
+import BlogSection from '../components/BlogSection';
+import EducationSection from '../components/EducationSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
@@ -16,10 +18,12 @@ const Index = () => {
       <Header />
       <HeroSection />
       <AboutSection />
+      <EducationSection />
       <ExperienceSection />
       <PortfolioSection />
       <AchievementsSection />
       <SkillsSection />
+      <BlogSection />
       <ContactSection />
       <Footer />
     </div>

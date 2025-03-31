@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Linkedin, Github, Mail } from 'lucide-react';
 
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-display font-bold">John Smith</h2>
+            <h2 className="text-2xl font-display font-bold">Akshit Bakshi</h2>
             <p className="text-gold">MBA Finance & Investment Banking</p>
           </div>
           
@@ -27,7 +28,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-sm text-white/70">
-              &copy; {new Date().getFullYear()} John Smith. All rights reserved.
+              &copy; {new Date().getFullYear()} Akshit Bakshi. All rights reserved.
             </p>
           </div>
           
@@ -44,6 +45,9 @@ const Footer = () => {
               </a>
               <a href="#skills" className="text-sm text-white/70 hover:text-gold transition-colors">
                 Skills
+              </a>
+              <a href="#blog" className="text-sm text-white/70 hover:text-gold transition-colors">
+                Blog
               </a>
               <a href="#contact" className="text-sm text-white/70 hover:text-gold transition-colors">
                 Contact

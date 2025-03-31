@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 
@@ -22,7 +23,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/70">Email</p>
-                    <a href="mailto:john.smith@example.com" className="text-white hover:text-gold">john.smith@example.com</a>
+                    <a href="mailto:akshit.bakshi@example.com" className="text-white hover:text-gold">akshit.bakshi@example.com</a>
                   </div>
                 </div>
                 
@@ -42,7 +43,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/70">LinkedIn</p>
-                    <a href="https://linkedin.com/in/johnsmith" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">linkedin.com/in/johnsmith</a>
+                    <a href="https://linkedin.com/in/akshitbakshi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">linkedin.com/in/akshitbakshi</a>
                   </div>
                 </div>
                 
@@ -52,7 +53,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/70">GitHub</p>
-                    <a href="https://github.com/johnsmith" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">github.com/johnsmith</a>
+                    <a href="https://github.com/akshitbakshi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">github.com/akshitbakshi</a>
                   </div>
                 </div>
               </div>
