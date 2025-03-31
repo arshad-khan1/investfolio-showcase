@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Linkedin, Github, Mail } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -26,10 +26,24 @@ const HeroSection = () => {
             <h2 className="text-2xl md:text-4xl font-display mb-8 text-gold">
               MBA Finance & Investment Banking
             </h2>
-            <p className="text-lg md:text-xl mb-12 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl mb-8 max-w-2xl leading-relaxed">
               Analytical and detail-oriented finance professional with strong valuation, modeling, and market analysis skills. 
               Seeking to leverage my academic excellence and practical experience in a challenging Investment Banking role.
             </p>
+            
+            {/* Social Icons */}
+            <div className="flex items-center space-x-6 mb-8">
+              <a href="#" className="text-white hover:text-gold transition-colors">
+                <Linkedin size={24} />
+              </a>
+              <a href="#" className="text-white hover:text-gold transition-colors">
+                <Github size={24} />
+              </a>
+              <a href="#" className="text-white hover:text-gold transition-colors">
+                <Mail size={24} />
+              </a>
+            </div>
+            
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="#portfolio" 

@@ -26,7 +26,7 @@ const Header = () => {
   ];
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-navy/80 py-6'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-navy/90 py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="text-xl md:text-2xl font-display font-bold text-gold">
           Akshit Bakshi
@@ -38,7 +38,7 @@ const Header = () => {
             <a
               key={item.name}
               href={item.href}
-              className={`${isScrolled ? 'text-navy' : 'text-white'} hover:text-gold transition-colors font-medium`}
+              className="text-white hover:text-gold transition-colors font-medium"
             >
               {item.name}
             </a>
@@ -47,7 +47,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className={`md:hidden ${isScrolled ? 'text-navy' : 'text-white'}`}
+          className="md:hidden text-white"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
