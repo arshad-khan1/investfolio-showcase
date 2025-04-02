@@ -11,7 +11,7 @@ const BlogList = () => {
   return (
     <>
       <Header />
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-white pt-32"> {/* Added pt-32 for extra padding at top */}
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-display font-bold mb-3 text-center">Blog Articles</h1>
           <p className="section-subtitle max-w-4xl mx-auto text-center mb-12">
