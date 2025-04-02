@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className="container mx-auto">
         <h2 className="section-title">About Me</h2>
         <p className="section-subtitle max-w-4xl">
-          A finance professional with a passion for investment strategy, valuation, and financial analysis
+          Finance enthusiast with expertise in investment banking, valuation, and financial modeling
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16">
@@ -19,14 +19,9 @@ const AboutSection = () => {
             <h3 className="text-xl font-display font-medium mb-3 text-navy">Education</h3>
             <ul className="space-y-4">
               <li>
-                <p className="font-semibold">MBA, Finance</p>
-                <p className="text-gray-600">Harvard Business School</p>
-                <p className="text-sm text-gray-500">2021 - 2023</p>
-              </li>
-              <li>
-                <p className="font-semibold">BBA, Finance & Economics</p>
-                <p className="text-gray-600">University of Pennsylvania</p>
-                <p className="text-sm text-gray-500">2016 - 2020</p>
+                <p className="font-semibold">MMS, Finance</p>
+                <p className="text-gray-600">Lala Lajpatrai Institute Of Management</p>
+                <p className="text-sm text-gray-500">2023 - 2025</p>
               </li>
             </ul>
           </div>
@@ -38,14 +33,12 @@ const AboutSection = () => {
             <h3 className="text-xl font-display font-medium mb-3 text-navy">Certifications</h3>
             <ul className="space-y-4">
               <li>
-                <p className="font-semibold">CFA Level II Candidate</p>
-                <p className="text-gray-600">CFA Institute</p>
-                <p className="text-sm text-gray-500">Expected June 2024</p>
+                <p className="font-semibold">BCG - Strategy Consulting Job Simulation</p>
+                <p className="text-sm text-gray-500">2023</p>
               </li>
               <li>
-                <p className="font-semibold">Financial Modeling & Valuation Analyst</p>
-                <p className="text-gray-600">Corporate Finance Institute</p>
-                <p className="text-sm text-gray-500">2022</p>
+                <p className="font-semibold">CITI - Investment Banking Job Simulation</p>
+                <p className="text-sm text-gray-500">2023</p>
               </li>
             </ul>
           </div>
@@ -54,26 +47,29 @@ const AboutSection = () => {
             <div className="mb-4 p-3 bg-navy rounded-full text-gold">
               <Briefcase size={28} />
             </div>
-            <h3 className="text-xl font-display font-medium mb-3 text-navy">Career Objective</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Seeking a challenging Investment Banking Associate role where I can leverage my analytical skills, 
-              financial knowledge, and business acumen to deliver exceptional value for clients while growing professionally
-              in deal execution and financial advisory.
-            </p>
+            <h3 className="text-xl font-display font-medium mb-3 text-navy">Skills</h3>
+            <ul className="space-y-2">
+              <li className="text-gray-600">Market Research</li>
+              <li className="text-gray-600">Data Analysis</li>
+              <li className="text-gray-600">Data Gathering</li>
+              <li className="text-gray-600">Financial Modeling</li>
+              <li className="text-gray-600">Valuation</li>
+            </ul>
           </div>
         </div>
         
         <div className="mt-16 p-6 bg-lightGrey rounded-lg max-w-4xl mx-auto">
           <h3 className="text-xl font-display font-medium mb-3 text-navy">Professional Summary</h3>
           <p className="text-gray-600 mb-4 leading-relaxed">
-            Recent Harvard MBA graduate with a concentration in Finance and Investment Banking. 
-            Experienced in financial modeling, valuation, and market analysis through coursework and internship experience. 
-            Strong understanding of capital markets, M&A, and corporate finance principles. 
-            Seeking to leverage analytical and technical skills in a challenging Investment Banking role.
+            Finance is more than just numbers—it's about unlocking value, driving strategic decisions, and fueling growth. 
+            As an MMS Finance candidate with a passion for Investment Banking, Valuation, and Mergers & Acquisitions, 
+            I am developing a deep understanding of corporate finance, financial modeling, and deal structuring to navigate high-stakes transactions.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Proven track record of academic excellence, leadership, and successful project execution in both team and independent settings. 
-            Committed to continuous learning and professional development in the financial services industry.
+            What I Bring to the Table:
+            ✔ Valuation & Financial Analysis – Expertise in DCF, trading comparables
+            ✔ Index Valuation & Equity Research – Assessing market trends and financial statements
+            ✔ Strategic Consulting & Data Analysis – Applying analytical skills to real-world finance challenges
           </p>
         </div>
       </div>

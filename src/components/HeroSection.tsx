@@ -12,7 +12,7 @@ const HeroSection = () => {
           <div className="md:order-2 mb-8 md:mb-0">
             <div className="rounded-full border-4 border-gold overflow-hidden w-48 h-48 md:w-64 md:h-64 shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                src="/lovable-uploads/a1c96d3b-f339-46a8-a6a0-5d4ec17513e0.png" 
                 alt="Akshit Bakshi" 
                 className="w-full h-full object-cover"
               />
@@ -24,22 +24,22 @@ const HeroSection = () => {
               Akshit Bakshi
             </h1>
             <h2 className="text-2xl md:text-4xl font-display mb-8 text-gold">
-              MBA Finance & Investment Banking
+              Investment Banking & Valuation Enthusiast
             </h2>
             <p className="text-lg md:text-xl mb-8 max-w-2xl leading-relaxed">
-              Analytical and detail-oriented finance professional with strong valuation, modeling, and market analysis skills. 
-              Seeking to leverage my academic excellence and practical experience in a challenging Investment Banking role.
+              Corporate Finance | Index Valuation | Financial Modeling | MMS Finance '25
+              Seeking to leverage analytical skills and financial knowledge in Investment Banking, Valuation, and M&A.
             </p>
             
             {/* Social Icons */}
             <div className="flex items-center space-x-6 mb-8">
-              <a href="#" className="text-white hover:text-gold transition-colors">
+              <a href="https://www.linkedin.com/in/akshit-bakshilinkdin" className="text-white hover:text-gold transition-colors" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={24} />
               </a>
               <a href="#" className="text-white hover:text-gold transition-colors">
                 <Github size={24} />
               </a>
-              <a href="#" className="text-white hover:text-gold transition-colors">
+              <a href="mailto:akshitbakshi67@gmail.com" className="text-white hover:text-gold transition-colors">
                 <Mail size={24} />
               </a>
             </div>

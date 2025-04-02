@@ -6,30 +6,15 @@ const EducationSection = () => {
   const education = [
     {
       id: 1,
-      degree: 'Master of Business Administration',
-      specialization: 'Finance & Investment Banking',
-      institution: 'Harvard Business School',
-      location: 'Boston, MA',
-      period: '2021 - 2023',
+      degree: 'Master of Management Studies',
+      specialization: 'Finance',
+      institution: 'Lala Lajpatrai Institute Of Management',
+      location: 'Mumbai, Maharashtra',
+      period: '2023 - 2025',
       achievements: [
-        'GPA: 3.95/4.0',
-        'Recipient of Dean\'s Excellence Scholarship',
-        'Specialized coursework in Financial Modeling, Valuation, and M&A',
-        'Winner of HBS Case Competition 2022'
-      ]
-    },
-    {
-      id: 2,
-      degree: 'Bachelor of Science',
-      specialization: 'Economics & Mathematics',
-      institution: 'University of Pennsylvania',
-      location: 'Philadelphia, PA',
-      period: '2017 - 2021',
-      achievements: [
-        'GPA: 3.8/4.0',
-        'Graduated Magna Cum Laude',
-        'Honors Thesis: "Quantitative Analysis of Financial Market Efficiency"',
-        'Investment Club President (2019-2021)'
+        'Specializing in Investment Banking and Valuation',
+        'Focus on Corporate Finance and Financial Modeling',
+        'Developing expertise in Mergers & Acquisitions strategy'
       ]
     }
   ];
