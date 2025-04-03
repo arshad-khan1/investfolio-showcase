@@ -67,3 +67,29 @@
     @apply text-xl md:text-2xl font-display mb-12 text-gray-600;
   }
 }
+
+/* Large screen responsiveness */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1440px;
+  }
+  
+  .section-padding {
+    @apply py-24 px-12;
+  }
+  
+  .section-title {
+    @apply text-5xl;
+  }
+  
+  .section-subtitle {
+    @apply text-2xl;
+  }
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+  }
+}

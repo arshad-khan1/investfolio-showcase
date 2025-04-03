@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -15,9 +15,6 @@ const Footer = () => {
           <div className="flex space-x-6">
             <a href="#" className="hover:text-gold transition-colors">
               <Linkedin size={24} />
-            </a>
-            <a href="#" className="hover:text-gold transition-colors">
-              <Github size={24} />
             </a>
             <a href="#" className="hover:text-gold transition-colors">
               <Mail size={24} />
@@ -45,6 +42,9 @@ const Footer = () => {
               </a>
               <a href="#skills" className="text-sm text-white/70 hover:text-gold transition-colors">
                 Skills
+              </a>
+              <a href="#certifications" className="text-sm text-white/70 hover:text-gold transition-colors">
+                Certifications
               </a>
               <a href="#blog" className="text-sm text-white/70 hover:text-gold transition-colors">
                 Blog

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { Mail, Phone, Linkedin } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -44,16 +44,6 @@ const ContactSection = () => {
                   <div>
                     <p className="text-sm text-white/70">LinkedIn</p>
                     <a href="https://linkedin.com/in/akshitbakshi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">linkedin.com/in/akshitbakshi</a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center">
-                  <div className="mr-4 bg-white/10 p-3 rounded-full">
-                    <Github size={24} className="text-gold" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-white/70">GitHub</p>
-                    <a href="https://github.com/akshitbakshi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">github.com/akshitbakshi</a>
                   </div>
                 </div>
               </div>

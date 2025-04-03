@@ -24,6 +24,7 @@ const Header = () => {
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Achievements', href: '#achievements' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -42,7 +43,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-gold transition-colors font-medium"
+                className={`${isScrolled ? 'text-navy' : 'text-white'} hover:text-gold transition-colors font-medium`}
               >
                 {item.name}
               </a>
@@ -53,7 +54,7 @@ const Header = () => {
         {/* Mobile Menu Button - Hide on blog pages */}
         {!isBlogPage && (
           <button
-            className="md:hidden text-white"
+            className={`md:hidden ${isScrolled ? 'text-navy' : 'text-white'}`}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
