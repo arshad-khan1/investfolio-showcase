@@ -4,10 +4,10 @@ import { Award, Star } from 'lucide-react';
 
 const AchievementsSection = () => {
   return (
-    <section id="achievements" className="md:px-20 lg:px-40 section-padding bg-navy text-white">
+    <section id="achievements" className="px-0 md:px-20 lg:px-40 section-padding bg-navy text-white">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-display font-medium mb-6 text-gold">Achievements</h2>
-        <p className="text-xl md:text-2xl font-display mb-12 text-gray-300">
+        <h2 className="section-title text-gold">Achievements</h2>
+        <p className="section-subtitle text-gray-300">
           Recognition of excellence in finance and leadership
         </p>
         
@@ -15,7 +15,7 @@ const AchievementsSection = () => {
           {/* Achievement 1 */}
           <div className="bg-white/10 backdrop-blur rounded-lg p-8 border border-white/20">
             <div className="flex items-start">
-              <div className="mr-6 text-gold">
+              <div className="mr-6 text-gold hidden md:block">
                 <Award size={48} />
               </div>
               <div>
@@ -47,7 +47,7 @@ const AchievementsSection = () => {
           {/* Achievement 2 */}
           <div className="bg-white/10 backdrop-blur rounded-lg p-8 border border-white/20">
             <div className="flex items-start">
-              <div className="mr-6 text-gold">
+              <div className="mr-6 text-gold hidden md:block">
                 <Award size={48} />
               </div>
               <div>

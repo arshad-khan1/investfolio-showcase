@@ -59,7 +59,7 @@
   }
   
   .section-title {
-    @apply text-3xl md:text-4xl font-display font-medium mb-6 text-navy;
+    @apply text-3xl md:text-4xl font-display font-medium mb-1 text-navy;
   }
   
   .section-subtitle {
@@ -79,6 +79,7 @@
   
   .section-title {
     @apply text-5xl;
+    @apply mb-4;
   }
   
   .section-subtitle {

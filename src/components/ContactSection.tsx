@@ -4,7 +4,7 @@ import { Mail, Phone, Linkedin } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="md:px-20 lg:px-40 section-padding bg-lightGrey">
+    <section id="contact" className="px-0 md:px-20 lg:px-40 section-padding bg-lightGrey">
       <div className="container mx-auto">
         <h2 className="section-title">Contact Me</h2>
         <p className="section-subtitle">

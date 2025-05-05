@@ -3,7 +3,7 @@ import { GraduationCap, Award, Briefcase } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="md:px-20 lg:px-40 section-padding bg-white">
+    <section id="about" className="px-4 md:px-20 lg:px-40 section-padding bg-white">
       <div className="container mx-auto px-4 py-4">
         <h2 className="section-title">About Me</h2>
 

@@ -84,7 +84,7 @@ const PortfolioSection = () => {
   ];
   
   return (
-    <section id="portfolio" className="md:px-20 lg:px-40 section-padding bg-white">
+    <section id="portfolio" className="px-0 md:px-20 lg:px-40 section-padding bg-white">
       <div className="container mx-auto">
         <h2 className="section-title">Portfolio</h2>
         <p className="section-subtitle max-w-4xl">

@@ -65,7 +65,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="md:px-20 lg:px-40 section-padding md:-mb-24 bg-white">
+    <section id="skills" className="px-0 md:px-20 lg:px-40 section-padding bg-white">
       <div className="container mx-auto">
         <h2 className="section-title">Skills & Expertise</h2>
         <p className="section-subtitle max-w-4xl">

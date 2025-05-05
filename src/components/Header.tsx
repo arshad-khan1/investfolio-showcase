@@ -30,8 +30,8 @@ const Header = () => {
   ];
 
   return (
-    <header className={`fixed w-full px-20 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-navy/90 py-6'}`}>
-      <div className="container mx-auto px-6 flex justify-between items-center">
+    <header className={`fixed w-full px-4 md:px-20 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-navy/90 py-6'}`}>
+      <div className="container mx-auto px-0 md:px-6 flex justify-between items-center">
         <Link to="/" className="text-xl md:text-2xl font-display font-bold text-gold">
           Akshit Bakshi
         </Link>

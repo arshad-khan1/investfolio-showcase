@@ -10,7 +10,7 @@ const BlogSection = () => {
   const featuredPosts = blogData.slice(0, 3);
 
   return (
-    <section id="blog" className="md:px-20 lg:px-40 section-padding  bg-white">
+    <section id="blog" className="px-0 md:px-20 lg:px-40 section-padding  bg-white">
       <div className="container mx-auto">
         <h2 className="section-title">Blog</h2>
         <p className="section-subtitle">

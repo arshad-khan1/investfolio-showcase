@@ -3,7 +3,7 @@ import React from 'react';
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="md:px-20 lg:px-40 section-padding md:pt-0 bg-lightGrey">
+    <section id="experience" className="px-0 md:px-20 lg:px-40 section-padding md:pt-0 bg-lightGrey">
       <div className="container mx-auto">
         <h2 className="section-title">Experience</h2>
         <p className="section-subtitle">

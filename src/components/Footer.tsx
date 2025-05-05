@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="lg:px-20 bg-navy text-white py-12">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-8">
+        <div className="flex md:flex-row justify-between items-start md:items-center mb-4 md:mb-8">
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-display font-bold">Akshit Bakshi</h2>
             <p className="text-gold">MBA Finance & Investment Banking</p>
@@ -22,8 +22,8 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+        <div className="border-t border-white/20 pt-8 flex flex-col-reverse md:flex-row justify-between items-center">
+          <div className="mt-8 md:mb-0">
             <p className="text-sm text-white/70">
               &copy; {new Date().getFullYear()} Akshit Bakshi. All rights reserved.
             </p>

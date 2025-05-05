@@ -62,10 +62,10 @@ const CertificationsSection = () => {
   };
 
   return (
-    <section id="certifications" className="md:px-20 lg:px-40  section-padding md:-mb-24 bg-white">
+    <section id="certifications" className="px-0 md:px-20 lg:px-40 section-padding bg-navy">
       <div className="container mx-auto">
-        <h2 className="section-title">Certifications</h2>
-        <p className="section-subtitle">
+        <h2 className="section-title text-gold">Certifications</h2>
+        <p className="section-subtitle text-gray-300">
           Professional qualifications that validate my expertise in finance and investment banking
         </p>
 
@@ -73,22 +73,22 @@ const CertificationsSection = () => {
           {certificates.map((certificate) => (
             <div 
               key={certificate.id} 
-              className="bg-lightGrey rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer"
+              className="bg-white/10 backdrop-blur rounded-lg overflow-hidden shadow-md border border-white/20 hover:shadow-lg transition-all duration-300 cursor-pointer"
               onClick={() => openCertificateModal(certificate)}
             >
               <div className="p-6">
                 <div className="flex items-start">
                   <div className="mr-4">
-                    <div className="w-12 h-12 bg-navy/10 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                       <Award size={24} className="text-gold" />
                     </div>
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-display font-medium text-navy mb-1">
+                    <h3 className="text-xl font-display font-medium text-gray-300 mb-1">
                       {certificate.title}
                     </h3>
-                    <div className="text-sm text-gray-600 mb-2">
+                    <div className="text-sm text-gray-400 mb-2">
                       {certificate.issuer} • {certificate.date}
                     </div>
                     <button 

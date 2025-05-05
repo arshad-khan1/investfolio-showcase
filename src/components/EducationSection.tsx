@@ -6,7 +6,7 @@ const EducationSection = () => {
   const education = [
     {
       id: 1,
-      degree: 'Master of Management Studies',
+      degree: 'Master of Business Administration',
       specialization: 'Finance',
       institution: 'Lala Lajpatrai Institute Of Management',
       location: 'Mumbai, Maharashtra',
@@ -20,7 +20,7 @@ const EducationSection = () => {
   ];
 
   return (
-    <section id="education" className="md:px-20 lg:px-40 section-padding bg-lightGrey">
+    <section id="education" className="px-0 md:px-20 lg:px-40 section-padding pb-0 md:pb-24 bg-lightGrey">
       <div className="container mx-auto">
         <h2 className="section-title">Education</h2>
         <p className="section-subtitle mx-auto">
