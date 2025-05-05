@@ -42,7 +42,8 @@ const BlogList = () => {
                 
                 <CardFooter>
                   <Link 
-                    to={`/blog/${post.id}`} 
+                    to={post.link} 
+                    target="_blank"
                     className="flex items-center text-navy hover:text-gold transition-colors group"
                   >
                     Read More 

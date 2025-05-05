@@ -20,14 +20,14 @@ const EducationSection = () => {
   ];
 
   return (
-    <section id="education" className="section-padding bg-lightGrey">
+    <section id="education" className="md:px-20 lg:px-40 section-padding bg-lightGrey">
       <div className="container mx-auto">
         <h2 className="section-title">Education</h2>
-        <p className="section-subtitle max-w-4xl mx-auto">
+        <p className="section-subtitle mx-auto">
           Academic foundations that have shaped my analytical approach to finance
         </p>
         
-        <div className="mt-12 max-w-4xl mx-auto">
+        <div className="mx-auto">
           {education.map((item, index) => (
             <div 
               key={item.id} 

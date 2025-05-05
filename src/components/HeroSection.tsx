@@ -4,15 +4,15 @@ import { ChevronDown, Linkedin, Github, Mail } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="relative h-screen flex items-center bg-navy text-white">
+    <section className="relative md:px-20 lg:px-40 h-screen flex items-center bg-navy text-white">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"></div>
       
       <div className="container mx-auto px-6 z-10 animate-fade-in">
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center gap-8">
           <div className="md:order-2 mb-8 md:mb-0">
-            <div className="rounded-full border-4 border-gold overflow-hidden w-48 h-48 md:w-64 md:h-64 shadow-xl">
+            <div className="rounded-[20px] border-4 border-gold overflow-hidden w-48 h-48 md:w-72 md:h-72 shadow-xl">
               <img 
-                src="/lovable-uploads/a1c96d3b-f339-46a8-a6a0-5d4ec17513e0.png" 
+                // src="/lovable-uploads/a1c96d3b-f339-46a8-a6a0-5d4ec17513e0.png" 
                 alt="Akshit Bakshi" 
                 className="w-full h-full object-cover"
               />
@@ -27,17 +27,14 @@ const HeroSection = () => {
               Investment Banking & Valuation Enthusiast
             </h2>
             <p className="text-lg md:text-xl mb-8 max-w-2xl leading-relaxed">
-              Corporate Finance | Index Valuation | Financial Modeling | MMS Finance '25
+              Corporate Finance | Index Valuation | Financial Modeling | MBA Finance '25
               Seeking to leverage analytical skills and financial knowledge in Investment Banking, Valuation, and M&A.
             </p>
             
             {/* Social Icons */}
             <div className="flex items-center space-x-6 mb-8">
-              <a href="https://www.linkedin.com/in/akshit-bakshilinkdin" className="text-white hover:text-gold transition-colors" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/akshit-bakshi-linkdin/" className="text-white hover:text-gold transition-colors" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={24} />
-              </a>
-              <a href="#" className="text-white hover:text-gold transition-colors">
-                <Github size={24} />
               </a>
               <a href="mailto:akshitbakshi67@gmail.com" className="text-white hover:text-gold transition-colors">
                 <Mail size={24} />

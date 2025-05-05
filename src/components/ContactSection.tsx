@@ -4,14 +4,14 @@ import { Mail, Phone, Linkedin } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="section-padding bg-lightGrey">
+    <section id="contact" className="md:px-20 lg:px-40 section-padding bg-lightGrey">
       <div className="container mx-auto">
         <h2 className="section-title">Contact Me</h2>
-        <p className="section-subtitle max-w-4xl">
+        <p className="section-subtitle">
           I'm currently seeking investment banking opportunities
         </p>
         
-        <div className="mt-12 max-w-4xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+        <div className="mt-12 mx-auto bg-white rounded-lg shadow-md overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="p-8 bg-navy text-white">
               <h3 className="text-2xl font-display font-medium mb-6 text-gold">Get In Touch</h3>
@@ -33,7 +33,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/70">Phone</p>
-                    <a href="tel:+12125551234" className="text-white hover:text-gold">(212) 555-1234</a>
+                    <a href="tel:+12125551234" className="text-white hover:text-gold">+91-7972756490</a>
                   </div>
                 </div>
                 
@@ -43,7 +43,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/70">LinkedIn</p>
-                    <a href="https://linkedin.com/in/akshitbakshi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">linkedin.com/in/akshitbakshi</a>
+                    <a href="https://www.linkedin.com/in/akshit-bakshi-linkdin/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold">linkedin.com/in/akshitbakshi</a>
                   </div>
                 </div>
               </div>

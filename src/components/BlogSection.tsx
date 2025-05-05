@@ -10,10 +10,10 @@ const BlogSection = () => {
   const featuredPosts = blogData.slice(0, 3);
 
   return (
-    <section id="blog" className="section-padding bg-white">
+    <section id="blog" className="md:px-20 lg:px-40 section-padding  bg-white">
       <div className="container mx-auto">
         <h2 className="section-title">Blog</h2>
-        <p className="section-subtitle max-w-4xl mx-auto">
+        <p className="section-subtitle">
           Insights on finance, markets, and investment strategies from my research and experience
         </p>
         
@@ -41,7 +41,7 @@ const BlogSection = () => {
               
               <CardFooter>
                 <Link 
-                  to={`/blog/${post.id}`} 
+                  to={`/blog`} 
                   className="flex items-center text-navy hover:text-gold transition-colors group"
                 >
                   Read More 

@@ -4,7 +4,7 @@ import { Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-navy text-white py-12">
+    <footer className="lg:px-20 bg-navy text-white py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           
           <div className="flex space-x-6">
-            <a href="#" className="hover:text-gold transition-colors">
+            <a href="https://www.linkedin.com/in/akshit-bakshi-linkdin/" className="hover:text-gold transition-colors">
               <Linkedin size={24} />
             </a>
             <a href="#" className="hover:text-gold transition-colors">

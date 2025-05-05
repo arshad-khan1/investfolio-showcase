@@ -6,57 +6,43 @@ const SkillsSection = () => {
     {
       category: "Financial Modeling",
       skills: [
-        { name: "DCF Valuation", level: 95 },
-        { name: "LBO Modeling", level: 90 },
-        { name: "M&A Modeling", level: 85 },
-        { name: "Financial Statement Forecasting", level: 90 },
-        { name: "Sensitivity Analysis", level: 95 },
+        { name: "DCF Valuation", level: 70 },
+        { name: "LBO Modeling", level: 55 },
+        { name: "M&A Modeling", level: 45 },
+        // { name: "Financial Statement Forecasting", level: 90 },
+        { name: "Sensitivity Analysis", level: 65 },
       ]
     },
     {
       category: "Valuation",
       skills: [
-        { name: "Comparable Company Analysis", level: 95 },
-        { name: "Precedent Transaction Analysis", level: 90 },
-        { name: "Sum-of-the-Parts Valuation", level: 85 },
-        { name: "Private Company Valuation", level: 80 },
-        { name: "Capital Asset Pricing Model", level: 90 },
+        { name: "Comparable Company Analysis", level: 55 },
+        // { name: "Precedent Transaction Analysis", level: 90 },
+        // { name: "Sum-of-the-Parts Valuation", level: 85 },
+        { name: "Private Company Valuation", level: 65 },
+        { name: "Capital Asset Pricing Model", level: 45 },
       ]
     },
     {
       category: "Financial Analysis",
       skills: [
-        { name: "Financial Statement Analysis", level: 95 },
-        { name: "Ratio Analysis", level: 95 },
-        { name: "Credit Analysis", level: 85 },
-        { name: "Cash Flow Analysis", level: 90 },
-        { name: "Capital Structure Analysis", level: 90 },
+        // { name: "Financial Statement Analysis", level: 95 },
+        // { name: "Ratio Analysis", level: 95 },
+        // { name: "Credit Analysis", level: 85 },
+        { name: "Cash Flow Analysis", level: 50 },
+        { name: "Capital Structure Analysis", level: 50 },
+        { name: "Industry Analysis", level: 60 },
       ]
     },
     {
       category: "Technical",
       skills: [
-        { name: "Excel & Financial Modeling", level: 95 },
-        { name: "Bloomberg Terminal", level: 85 },
-        { name: "Capital IQ", level: 85 },
-        { name: "FactSet", level: 80 },
-        { name: "PowerPoint", level: 90 },
+        { name: "Excel & Financial Modeling", level: 75 },
+        // { name: "Bloomberg Terminal", level: 85 },
+        // { name: "Capital IQ", level: 85 },
+        // { name: "FactSet", level: 80 },
+        { name: "PowerPoint", level: 70 },
       ]
-    }
-  ];
-
-  const marketAnalysisSamples = [
-    {
-      title: "Tech Sector Quarterly Outlook",
-      description: "Analysis of tech sector performance, valuation trends, and strategic M&A opportunities for Q2 2023."
-    },
-    {
-      title: "Healthcare REIT Market Review",
-      description: "Comprehensive review of healthcare REIT market dynamics, regulatory impacts, and investment outlook."
-    },
-    {
-      title: "ESG Integration in Valuation Models",
-      description: "Framework for incorporating ESG factors into traditional DCF and multiple-based valuation approaches."
     }
   ];
 
@@ -79,7 +65,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="section-padding bg-white">
+    <section id="skills" className="md:px-20 lg:px-40 section-padding md:-mb-24 bg-white">
       <div className="container mx-auto">
         <h2 className="section-title">Skills & Expertise</h2>
         <p className="section-subtitle max-w-4xl">
@@ -111,24 +97,6 @@ const SkillsSection = () => {
           ))}
         </div>
         
-        {/* Market Analysis Samples */}
-        <div className="mt-16">
-          <h3 className="text-2xl font-display font-medium mb-6 text-navy">Market Analysis Samples</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {marketAnalysisSamples.map((sample, index) => (
-              <div 
-                key={index} 
-                className="bg-lightGrey p-6 rounded-lg hover:shadow-md transition-all"
-              >
-                <h4 className="text-lg font-medium text-navy mb-3">{sample.title}</h4>
-                <p className="text-gray-600">{sample.description}</p>
-                <button className="mt-4 text-gold font-medium hover:underline">
-                  Download PDF
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
         
         {/* Industry Involvement */}
         <div className="mt-16">

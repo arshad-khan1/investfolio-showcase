@@ -1,76 +1,93 @@
-
-import React from 'react';
-import { GraduationCap, Award, Briefcase } from 'lucide-react';
+import React from "react";
+import { GraduationCap, Award, Briefcase } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="section-padding bg-white">
-      <div className="container mx-auto">
+    <section id="about" className="md:px-20 lg:px-40 section-padding bg-white">
+      <div className="container mx-auto px-4 py-4">
         <h2 className="section-title">About Me</h2>
-        <p className="section-subtitle max-w-4xl">
-          Finance enthusiast with expertise in investment banking, valuation, and financial modeling
+
+        {/* <h2 className="text-3xl font-bold text-navy mb-4">About Me</h2> */}
+
+        <p className="text-xl text-gray-800 mb-2">
+          I’m a finance enthusiast with a strong foundation in investment
+          banking, valuation, and financial modeling. Currently pursuing an MBA
+          in Finance, I’m passionate about driving strategic decision-making and
+          unlocking value through high-impact financial analysis.
         </p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16">
-          <div className="flex flex-col items-center md:items-start">
-            <div className="mb-4 p-3 bg-navy rounded-full text-gold">
-              <GraduationCap size={28} />
-            </div>
-            <h3 className="text-xl font-display font-medium mb-3 text-navy">Education</h3>
-            <ul className="space-y-4">
-              <li>
-                <p className="font-semibold">MMS, Finance</p>
-                <p className="text-gray-600">Lala Lajpatrai Institute Of Management</p>
-                <p className="text-sm text-gray-500">2023 - 2025</p>
-              </li>
-            </ul>
-          </div>
-          
-          <div className="flex flex-col items-center md:items-start">
-            <div className="mb-4 p-3 bg-navy rounded-full text-gold">
-              <Award size={28} />
-            </div>
-            <h3 className="text-xl font-display font-medium mb-3 text-navy">Certifications</h3>
-            <ul className="space-y-4">
-              <li>
-                <p className="font-semibold">BCG - Strategy Consulting Job Simulation</p>
-                <p className="text-sm text-gray-500">2023</p>
-              </li>
-              <li>
-                <p className="font-semibold">CITI - Investment Banking Job Simulation</p>
-                <p className="text-sm text-gray-500">2023</p>
-              </li>
-            </ul>
-          </div>
-          
-          <div className="flex flex-col items-center md:items-start">
-            <div className="mb-4 p-3 bg-navy rounded-full text-gold">
-              <Briefcase size={28} />
-            </div>
-            <h3 className="text-xl font-display font-medium mb-3 text-navy">Skills</h3>
-            <ul className="space-y-2">
-              <li className="text-gray-600">Market Research</li>
-              <li className="text-gray-600">Data Analysis</li>
-              <li className="text-gray-600">Data Gathering</li>
-              <li className="text-gray-600">Financial Modeling</li>
-              <li className="text-gray-600">Valuation</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div className="mt-16 p-6 bg-lightGrey rounded-lg max-w-4xl mx-auto">
-          <h3 className="text-xl font-display font-medium mb-3 text-navy">Professional Summary</h3>
-          <p className="text-gray-600 mb-4 leading-relaxed">
-            Finance is more than just numbers—it's about unlocking value, driving strategic decisions, and fueling growth. 
-            As an MMS Finance candidate with a passion for Investment Banking, Valuation, and Mergers & Acquisitions, 
-            I am developing a deep understanding of corporate finance, financial modeling, and deal structuring to navigate high-stakes transactions.
-          </p>
-          <p className="text-gray-600 leading-relaxed">
+
+        <p className="text-xl text-gray-800 mb-2">
+          To me, finance is more than just numbers—it's about understanding
+          business dynamics, structuring deals, and enabling sustainable growth.
+          My academic and practical exposure has deepened my expertise in
+          corporate finance, M&A, and data-driven decision-making.
+        </p>
+
+        <div className="mt-10">
+          <h3 className="text-2xl font-bold text-navy mb-4">
             What I Bring to the Table:
-            ✔ Valuation & Financial Analysis – Expertise in DCF, trading comparables
-            ✔ Index Valuation & Equity Research – Assessing market trends and financial statements
-            ✔ Strategic Consulting & Data Analysis – Applying analytical skills to real-world finance challenges
-          </p>
+          </h3>
+          <ul className="space-y-3 text-xl">
+            <li className="flex items-start">
+              <svg
+                className="w-5 h-5 flex-shrink-0 text-navy mt-1 mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 12l-2-2 1.4-1.4L9 9.2l4.6-4.6L15 6l-6 6z" />
+              </svg>
+              <div>
+                <p className="font-semibold text-navy">
+                  Valuation &amp; Financial Analysis
+                </p>
+                <p className="text-gray-700">
+                  Proficient in DCF modeling, trading comparables, and
+                  fundamental analysis.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start">
+              <svg
+                className="w-5 h-5 flex-shrink-0 text-navy mt-1 mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 12l-2-2 1.4-1.4L9 9.2l4.6-4.6L15 6l-6 6z" />
+              </svg>
+              <div>
+                <p className="font-semibold text-navy">
+                  Index Valuation &amp; Equity Research
+                </p>
+                <p className="text-gray-700">
+                  Skilled in interpreting market trends and assessing financial
+                  statements.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start">
+              <svg
+                className="w-5 h-5 flex-shrink-0 text-navy mt-1 mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 12l-2-2 1.4-1.4L9 9.2l4.6-4.6L15 6l-6 6z" />
+              </svg>
+              <div>
+                <p className="font-semibold text-navy">
+                  Strategic Consulting &amp; Data Analysis
+                </p>
+                <p className="text-gray-700">
+                  Leveraging analytical tools to solve complex financial
+                  challenges.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

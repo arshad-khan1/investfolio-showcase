@@ -18,7 +18,7 @@ const CertificationsSection = () => {
       title: 'Financial Modeling & Valuation Analyst',
       issuer: 'Corporate Finance Institute',
       date: 'March 2024',
-      image: '/placeholder.svg', // Replace with actual certificate image
+      image: '/CITI_Inv_Cert.png', // Replace with actual certificate image
       link: 'https://example.com/certificate1',
       learnings: [
         'Advanced DCF modeling techniques',
@@ -29,30 +29,30 @@ const CertificationsSection = () => {
     },
     {
       id: 2,
-      title: 'Investment Banking Associate',
-      issuer: 'Wall Street Prep',
-      date: 'January 2024',
-      image: '/placeholder.svg', // Replace with actual certificate image
-      link: 'https://example.com/certificate2',
+      title: 'BCG - Strategy Consulting Job Simulation',
+      issuer: 'BCG',
+      date: 'October 2024',
+      image: '/BCG_Inv_Cert.png', // Replace with actual certificate image
+      link: 'https://drive.google.com/file/d/1ik7xvmU1iWtams0q2bF2mX2KZjkckm9k/view?usp=drive_link',
       learnings: [
-        'Leveraged buyout analysis',
-        'Merger consequences analysis',
-        'Accretion/dilution modeling',
-        'Precedent transaction analysis'
+        'Applied BCG’s hypothesis-driven problem-solving frameworks on real-world case tasks.',
+        'Built dynamic Excel financial models and ran sensitivity analyses to inform strategic decisions.',
+        'Synthesized complex data into concise, high-impact insights and PowerPoint deliverables.',
+        'Benchmarked my solutions against leader sample answers to ensure best-practice rigor.'
       ]
     },
     {
       id: 3,
-      title: 'CFA Level I',
-      issuer: 'CFA Institute',
-      date: 'December 2023',
-      image: '/placeholder.svg', // Replace with actual certificate image
-      link: 'https://example.com/certificate3',
+      title: 'CITI - Investment Banking Job Simulation',
+      issuer: 'CITI',
+      date: 'December 2024',
+      image: '/CITI_Inv_Cert.png', // Replace with actual certificate image
+      link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/8eNRcRqBZM9HLvwGw/amBSJDTDDFcYiKq9Z_8eNRcRqBZM9HLvwGw_s8XfRdWw2wvJq2pMZ_1735148802346_completion_certificate.pdf',
       learnings: [
-        'Investment management fundamentals',
-        'Ethical and professional standards',
-        'Quantitative methods in finance',
-        'Financial reporting and analysis'
+        'Synthesized live market news and data into concise trade insights under time pressure.',
+        'Formulated and back-tested market views, developing actionable trading ideas and hedges.',
+        'Executed simulated desk workflows across Sales & Trading, demonstrating adaptability on both fronts.',
+        'Managed risk scenarios through dynamic hedging exercises, showcasing disciplined decision-making.'
       ]
     }
   ];
@@ -62,10 +62,10 @@ const CertificationsSection = () => {
   };
 
   return (
-    <section id="certifications" className="section-padding bg-white">
-      <div className="container mx-auto max-w-7xl">
+    <section id="certifications" className="md:px-20 lg:px-40  section-padding md:-mb-24 bg-white">
+      <div className="container mx-auto">
         <h2 className="section-title">Certifications</h2>
-        <p className="section-subtitle max-w-4xl mx-auto">
+        <p className="section-subtitle">
           Professional qualifications that validate my expertise in finance and investment banking
         </p>
 
