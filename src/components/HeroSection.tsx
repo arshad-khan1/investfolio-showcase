@@ -12,7 +12,7 @@ const HeroSection = () => {
           <div className="md:order-2 md:mb-0">
             <div className="rounded-[20px] border-4 border-gold overflow-hidden w-48 h-64 md:w-72 md:h-96 shadow-xl ">
               <img 
-                // src="/lovable-uploads/a1c96d3b-f339-46a8-a6a0-5d4ec17513e0.png" 
+                src="/lovable-uploads/a1c96d3b-f339-46a8-a6a0-5d4ec17513e0.png" 
                 alt="Akshit Bakshi" 
                 className="w-full h-full object-cover"
               />
